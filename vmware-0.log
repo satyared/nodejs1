@@ -1,0 +1,752 @@
+2023-10-26T15:40:12.091Z In(05) vmx Log for VMware Workstation pid=13448 version=16.2.3 build=build-19376536 option=Release
+2023-10-26T15:40:12.091Z In(05) vmx The host is 64-bit.
+2023-10-26T15:40:12.091Z In(05) vmx Host codepage=windows-1252 encoding=windows-1252
+2023-10-26T15:40:12.091Z In(05) vmx Host is Windows 10 Pro, 64-bit (Build 19045.3448)
+2023-10-26T15:40:12.091Z In(05) vmx Host offset from UTC is -05:30.
+2023-10-26T15:40:12.029Z In(05) vmx VTHREAD 8648 "vmx"
+2023-10-26T15:40:12.038Z In(05) vmx LOCALE windows-1252 -> NULL User=4009 System=409
+2023-10-26T15:40:12.038Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2023-10-26T15:40:12.051Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\ABCDE\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-26T15:40:12.051Z In(05) vmx Msg_Reset:
+2023-10-26T15:40:12.051Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\ABCDE\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-26T15:40:12.051Z In(05) vmx ----------------------------------------
+2023-10-26T15:40:12.051Z In(05) vmx ConfigDB: Failed to load C:\Users\ABCDE\AppData\Roaming\VMware\config.ini
+2023-10-26T15:40:12.052Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\satya1.vmpl", ...) failed, error: 2
+2023-10-26T15:40:12.052Z In(05) vmx OBJLIB-LIB: Objlib initialized.
+2023-10-26T15:40:12.055Z In(05) vmx DictionaryLoad: Cannot open file "C:\Users\ABCDE\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-26T15:40:12.055Z In(05) vmx [msg.dictionary.load.openFailed] Cannot open file "C:\Users\ABCDE\AppData\Roaming\VMware\config.ini": The system cannot find the file specified.
+2023-10-26T15:40:12.055Z In(05) vmx PREF Optional preferences file not found at C:\Users\ABCDE\AppData\Roaming\VMware\config.ini. Using default values.
+2023-10-26T15:40:12.055Z In(05) vmx UUID: SMBIOS UUID is reported as '81 c2 c9 34 19 56 cb 11-b0 bb c0 52 c8 9f 6a 42'.
+2023-10-26T15:40:12.073Z In(05) vmx lib/ssl: OpenSSL using RAND_OpenSSL for RAND
+2023-10-26T15:40:12.074Z In(05) vmx lib/ssl: protocol list tls1.2
+2023-10-26T15:40:12.074Z In(05) vmx lib/ssl: protocol list tls1.2 (openssl flags 0x36000000)
+2023-10-26T15:40:12.074Z In(05) vmx lib/ssl: cipher list ECDHE+AESGCM:RSA+AESGCM:ECDHE+AES:RSA+AES
+2023-10-26T15:40:12.074Z In(05) vmx lib/ssl: curves list prime256v1:secp384r1:secp521r1
+2023-10-26T15:40:12.105Z In(05) vmx Hostname=DESKTOP-P8DNTML
+2023-10-26T15:40:12.113Z In(05) vmx IP=fe80::46f9:8c6f:efa1:781f%7
+2023-10-26T15:40:12.113Z In(05) vmx IP=fe80::4317:9fae:c60d:96ed%5
+2023-10-26T15:40:12.113Z In(05) vmx IP=fe80::a566:ca6:eea6:5970%16
+2023-10-26T15:40:12.113Z In(05) vmx IP=2409:40f0:104c:4155:308c:9d47:8498:4707
+2023-10-26T15:40:12.113Z In(05) vmx IP=2409:40f0:104c:4155:ffe4:7836:6761:764c
+2023-10-26T15:40:12.113Z In(05) vmx IP=192.168.192.1
+2023-10-26T15:40:12.113Z In(05) vmx IP=192.168.190.1
+2023-10-26T15:40:12.113Z In(05) vmx IP=192.168.134.70
+2023-10-26T15:40:12.134Z In(05) vmx System uptime 1670640973974 us
+2023-10-26T15:40:12.135Z In(05) vmx Command line: "C:\Program Files (x86)\VMware\VMware Workstation\x64\vmware-vmx.exe" "-T" "querytoken" "-s" "vmx.stdio.keep=TRUE" "-#" "product=1;name=VMware Workstation;version=16.2.3;buildnumber=19376536;licensename=VMware Workstation;licenseversion=16.0;" "-@" "pipe=\\.\pipe\vmxa3545aa92990633f;msgs=ui" "D:\satya1.vmx"
+2023-10-26T15:40:12.135Z In(05) vmx Msg_SetLocaleEx: HostLocale=windows-1252 UserLocale=NULL
+2023-10-26T15:40:12.199Z In(05) vmx WQPoolAllocPoll : pollIx = 1, signalHandle = 844
+2023-10-26T15:40:12.199Z In(05) vmx WQPoolAllocPoll : pollIx = 2, signalHandle = 852
+2023-10-26T15:40:12.200Z In(05) vmx VigorTransport listening on fd 864
+2023-10-26T15:40:12.200Z In(05) vmx Vigor_Init 1
+2023-10-26T15:40:12.200Z In(05) vmx Connecting 'ui' to pipe '\\.\pipe\vmxa3545aa92990633f' with user '(null)'
+2023-10-26T15:40:12.201Z In(05) vmx VMXVmdb: Local connection timeout: 60000 ms.
+2023-10-26T15:40:12.211Z In(05) vmx VmdbAddConnection: cnxPath=/db/connection/#1/, cnxIx=1
+2023-10-26T15:40:12.212Z In(05) vmx Vix: [mainDispatch.c:486]: VMAutomation: Initializing VMAutomation.
+2023-10-26T15:40:12.213Z In(05) vmx Vix: [mainDispatch.c:738]: VMAutomationOpenListenerSocket() listening
+2023-10-26T15:40:12.259Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2023-10-26T15:40:12.260Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2023-10-26T15:40:12.260Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2023-10-26T15:40:12.260Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1877, success=1 additionalError=0
+2023-10-26T15:40:12.261Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=3, newAppState=1881, success=1 additionalError=0
+2023-10-26T15:40:12.315Z In(05) vmx IOPL_VBSRunning: VBS is set to 0
+2023-10-26T15:40:12.316Z In(05) vmx IOCTL_VMX86_SET_MEMORY_PARAMS already set
+2023-10-26T15:40:12.319Z In(05) vmx FeatureCompat: No EVC masks.
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID vendor: GenuineIntel
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID family: 0x6 model: 0x4e stepping: 0x3
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID codename: Skylake-Y
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID name: Intel(R) Core(TM) i5-6300U CPU @ 2.40GHz
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000000, 0: 0x00000016 0x756e6547 0x6c65746e 0x49656e69
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000001, 0: 0x000406e3 0x00100800 0x7ffafbff 0xbfebfbff
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000002, 0: 0x76036301 0x00f0b5ff 0x00000000 0x00c30000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000003, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000004, 0: 0x1c004121 0x01c0003f 0x0000003f 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000004, 1: 0x1c004122 0x01c0003f 0x0000003f 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000004, 2: 0x1c004143 0x00c0003f 0x000003ff 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000004, 3: 0x1c03c163 0x02c0003f 0x00000fff 0x00000006
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000004, 4: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000005, 0: 0x00000040 0x00000040 0x00000003 0x11142120
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000006, 0: 0x000027f7 0x00000002 0x00000009 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000007, 0: 0x00000000 0x029c6fbf 0x00000000 0x9c002400
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000008, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 00000009, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000a, 0: 0x07300404 0x00000000 0x00000000 0x00000603
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000b, 0: 0x00000001 0x00000002 0x00000100 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000b, 1: 0x00000004 0x00000004 0x00000201 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000b, 2: 0x00000000 0x00000000 0x00000002 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000c, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 0: 0x0000001f 0x00000440 0x00000440 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 1: 0x0000000f 0x00000440 0x00000100 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 2: 0x00000100 0x00000240 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 3: 0x00000040 0x000003c0 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 4: 0x00000040 0x00000400 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 5: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 6: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 7: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000d, 8: 0x00000080 0x00000000 0x00000001 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000e, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000f, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.329Z In(05) vmx hostCPUID level 0000000f, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000010, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000010, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000010, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000010, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000011, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000012, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000012, 1: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000012, 2: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000012, 3: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000013, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000014, 0: 0x00000001 0x0000000f 0x00000007 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000014, 1: 0x02490002 0x003f3fff 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000015, 0: 0x00000002 0x000000d0 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 00000016, 0: 0x000009c4 0x00000bb8 0x00000064 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 80000000, 0: 0x80000008 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 80000001, 0: 0x00000000 0x00000000 0x00000121 0x2c100800
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 80000002, 0: 0x65746e49 0x2952286c 0x726f4320 0x4d542865
+2023-10-26T15:40:12.330Z In(05) vmx hostCPUID level 80000003, 0: 0x35692029 0x3033362d 0x43205530 0x40205550
+2023-10-26T15:40:12.331Z In(05) vmx hostCPUID level 80000004, 0: 0x342e3220 0x7a484730 0x00000000 0x00000000
+2023-10-26T15:40:12.331Z In(05) vmx hostCPUID level 80000005, 0: 0x00000000 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.331Z In(05) vmx hostCPUID level 80000006, 0: 0x00000000 0x00000000 0x01006040 0x00000000
+2023-10-26T15:40:12.331Z In(05) vmx hostCPUID level 80000007, 0: 0x00000000 0x00000000 0x00000000 0x00000100
+2023-10-26T15:40:12.331Z In(05) vmx hostCPUID level 80000008, 0: 0x00003027 0x00000000 0x00000000 0x00000000
+2023-10-26T15:40:12.331Z In(05) vmx CPUID differences from hostCPUID.
+2023-10-26T15:40:12.331Z In(05) vmx Physical APIC IDs: 0-3
+2023-10-26T15:40:12.331Z In(05) vmx Physical X2APIC IDs: 0-3
+2023-10-26T15:40:12.331Z In(05) vmx Common: MSR       0x3a =                0x5
+2023-10-26T15:40:12.331Z In(05) vmx Common: MSR      0x480 =   0xda040000000004
+2023-10-26T15:40:12.331Z In(05) vmx Common: MSR      0x481 =       0x7f00000016
+2023-10-26T15:40:12.331Z In(05) vmx Common: MSR      0x482 = 0xfff9fffe0401e172
+2023-10-26T15:40:12.331Z In(05) vmx Common: MSR      0x483 =  0x1ffffff00036dff
+2023-10-26T15:40:12.331Z In(05) vmx Common: MSR      0x484 =    0x3ffff000011ff
+2023-10-26T15:40:12.331Z In(05) vmx Common: MSR      0x485 =         0x7004c1e7
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x486 =         0x80000021
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x487 =         0xffffffff
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x488 =             0x2000
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x489 =           0x3767ff
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x48a =               0x2e
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x48b =   0x1ffcff00000000
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x48c =      0xf0106334141
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x48d =       0x7f00000016
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x48e = 0xfff9fffe04006172
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x48f =  0x1ffffff00036dfb
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x490 =    0x3ffff000011fb
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x491 =                0x1
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x492 =                  0
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR 0xc0010114 =                  0
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR       0xce =         0x80000000
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x10a =                  0
+2023-10-26T15:40:12.332Z In(05) vmx Common: MSR      0x122 =                  0
+2023-10-26T15:40:12.332Z In(05) vmx VMMon_GetkHzEstimate: Calculated 2496002 kHz
+2023-10-26T15:40:12.332Z In(05) vmx TSC kHz estimates: vmmon 2496002, remembered 0, osReported 2496000. Using 2496002 kHz.
+2023-10-26T15:40:12.332Z In(05) vmx TSC first measured delta 262
+2023-10-26T15:40:12.332Z In(05) vmx TSC min delta 262
+2023-10-26T15:40:12.332Z In(05) vmx PTSC: RefClockToPTSC 0 @ 10000000Hz -> 0 @ 2496002000Hz
+2023-10-26T15:40:12.332Z In(05) vmx PTSC: RefClockToPTSC ((x * 4187596469) >> 24) + -200588549145439
+2023-10-26T15:40:12.332Z In(05) vmx PTSC: tscOffset -200842512293363
+2023-10-26T15:40:12.332Z In(05) vmx PTSC: using TSC
+2023-10-26T15:40:12.332Z In(05) vmx PTSC: hardware TSCs are synchronized.
+2023-10-26T15:40:12.332Z In(05) vmx PTSC: hardware TSCs may have been adjusted by the host.
+2023-10-26T15:40:12.332Z In(05) vmx PTSC: current PTSC=19666691746
+2023-10-26T15:40:12.361Z In(05) vmx WQPoolAllocPoll : pollIx = 3, signalHandle = 1016
+2023-10-26T15:40:12.519Z In(05) vmx ConfigCheck: No rules file found. Checks are disabled.
+2023-10-26T15:40:12.520Z In(05) vmx changing directory to D:\.
+2023-10-26T15:40:12.522Z In(05) vmx Config file: D:\satya1.vmx
+2023-10-26T15:40:12.522Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2023-10-26T15:40:12.522Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=2, newAppState=1878, success=1 additionalError=0
+2023-10-26T15:40:12.634Z No(00) vmx ConfigDB: Setting ide1:0.fileName = "auto detect"
+2023-10-26T15:40:12.641Z Wa(03) vmx PowerOn
+2023-10-26T15:40:12.641Z In(05) vmx VMX_PowerOn: VMX build 19376536, UI build 19376536
+2023-10-26T15:40:12.641Z In(05) vmx HostWin32: WIN32 NUMA node 0, CPU mask 0x000000000000000f
+2023-10-26T15:40:12.682Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1871, success=1 additionalError=0
+2023-10-26T15:40:12.688Z In(05) vmx VMXSTATS: Successfully created statsfile: vm.scoreboard
+2023-10-26T15:40:12.689Z In(05) vmx VMXSTATS: Update Product Information: VMware Workstation	16.2.3	build-19376536	Release  TotalBlockSize: 64
+2023-10-26T15:40:12.693Z In(05) vmx HOST Windows version 10.0, build 19045, platform 2, ""
+2023-10-26T15:40:12.693Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini
+2023-10-26T15:40:12.693Z In(05) vmx DICT          printers.enabled = "FALSE"
+2023-10-26T15:40:12.693Z In(05) vmx DICT --- NON PERSISTENT (null)
+2023-10-26T15:40:12.693Z In(05) vmx DICT --- USER PREFERENCES C:\Users\ABCDE\AppData\Roaming\VMware\preferences.ini
+2023-10-26T15:40:12.693Z In(05) vmx DICT   pref.lastUpdateCheckSec = "1697865656"
+2023-10-26T15:40:12.693Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.enabled = "FALSE"
+2023-10-26T15:40:12.693Z In(05) vmx DICT pref.keyboardAndMouse.vmHotKey.count = "0"
+2023-10-26T15:40:12.693Z In(05) vmx DICT         vmWizard.guestKey = "centos-64"
+2023-10-26T15:40:12.693Z In(05) vmx DICT vmWizard.installMediaType = "iso"
+2023-10-26T15:40:12.693Z In(05) vmx DICT vmWizard.isoLocationMRU.count = "3"
+2023-10-26T15:40:12.693Z In(05) vmx DICT vmWizard.isoLocationMRU0.location = "D:\linux 9\CentOS-Stream-9-latest-x86_64-dvd1.iso"
+2023-10-26T15:40:12.693Z In(05) vmx DICT       pref.license.maxNum = "1"
+2023-10-26T15:40:12.693Z In(05) vmx DICT     pref.license0.version = "16.0"
+2023-10-26T15:40:12.693Z In(05) vmx DICT pref.license0.registrationViewed = "FALSE"
+2023-10-26T15:40:12.693Z In(05) vmx DICT pref.license0.lastEvalReminder = "0"
+2023-10-26T15:40:12.693Z In(05) vmx DICT pref.ws.session.window.count = "1"
+2023-10-26T15:40:12.693Z In(05) vmx DICT pref.ws.session.window0.tab.count = "3"
+2023-10-26T15:40:12.693Z In(05) vmx DICT pref.ws.session.window0.tab0.cnxType = "vmdb"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.sidebar = "TRUE"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.sidebar.width = "214"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.statusBar = "TRUE"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tabs = "TRUE"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar = "FALSE"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.size = "125"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.thumbnailBar.view = "same-folder"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.placement.left = "397"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.placement.top = "132"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.placement.right = "1403"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.placement.bottom = "904"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.maximized = "TRUE"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab1.cnxType = "vmdb"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab2.cnxType = "vmdb"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab3.cnxType = "vmdb"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab4.cnxType = "vmdb"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.updatesVersionIgnore.numItems = "3"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.updatesVersionIgnore0.key = <not printed>
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.updatesVersionIgnore0.value = "08a2b907-cd71-4e02-8d2c-677bff39cc98"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.updatesVersionIgnore1.key = <not printed>
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.updatesVersionIgnore1.value = "bd1374d9-7397-4a4c-b4c1-7ac0aeb337af"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.updatesVersionIgnore2.key = <not printed>
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.updatesVersionIgnore2.value = "0d0429a8-d054-4f86-adfc-2740b2354c54"
+2023-10-26T15:40:12.694Z In(05) vmx DICT vmWizard.isoLocationMRU1.location = "C:\Users\ABCDE\Downloads\CentOS-7-x86_64-DVD-2009.iso"
+2023-10-26T15:40:12.694Z In(05) vmx DICT vmWizard.isoLocationMRU2.location = "C:\Users\ABCDE\Downloads\ubuntu-20.04.5-live-server-amd64.iso"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab0.dest = ""
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab0.file = "D:\satya1.vmx"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab0.type = "vm"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab0.focused = "FALSE"
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab1.dest = ""
+2023-10-26T15:40:12.694Z In(05) vmx DICT pref.ws.session.window0.tab1.file = "C:\Users\ABCDE\Documents\Virtual Machines\docker\docker.vmx"
+2023-10-26T15:40:12.695Z In(05) vmx DICT pref.ws.session.window0.tab1.type = "vm"
+2023-10-26T15:40:12.695Z In(05) vmx DICT pref.ws.session.window0.tab1.focused = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT pref.ws.session.window0.tab2.dest = ""
+2023-10-26T15:40:12.695Z In(05) vmx DICT pref.ws.session.window0.tab2.file = "C:\Users\ABCDE\Documents\Virtual Machines\Clone of satya\Clone of satya.vmx"
+2023-10-26T15:40:12.695Z In(05) vmx DICT pref.ws.session.window0.tab2.type = "vm"
+2023-10-26T15:40:12.695Z In(05) vmx DICT pref.ws.session.window0.tab2.focused = "FALSE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT --- USER DEFAULTS C:\Users\ABCDE\AppData\Roaming\VMware\config.ini
+2023-10-26T15:40:12.695Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2023-10-26T15:40:12.695Z In(05) vmx DICT         authd.client.port = "902"
+2023-10-26T15:40:12.695Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "28546"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "28546"
+2023-10-26T15:40:12.695Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini
+2023-10-26T15:40:12.695Z In(05) vmx DICT         authd.client.port = "902"
+2023-10-26T15:40:12.695Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "28546"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2023-10-26T15:40:12.695Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "28546"
+2023-10-26T15:40:12.695Z In(05) vmx DICT --- NONPERSISTENT
+2023-10-26T15:40:12.695Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT             gui.available = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT --- COMMAND LINE
+2023-10-26T15:40:12.695Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT             gui.available = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT --- RECORDING
+2023-10-26T15:40:12.695Z In(05) vmx DICT            vmx.stdio.keep = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT             gui.available = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT --- CONFIGURATION D:\satya1.vmx 
+2023-10-26T15:40:12.695Z In(05) vmx DICT               displayName = "satya1"
+2023-10-26T15:40:12.695Z In(05) vmx DICT            config.version = "8"
+2023-10-26T15:40:12.695Z In(05) vmx DICT         virtualHW.version = "19"
+2023-10-26T15:40:12.695Z In(05) vmx DICT        pciBridge0.present = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT        pciBridge4.present = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT     pciBridge4.virtualDev = "pcieRootPort"
+2023-10-26T15:40:12.695Z In(05) vmx DICT      pciBridge4.functions = "8"
+2023-10-26T15:40:12.695Z In(05) vmx DICT        pciBridge5.present = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT     pciBridge5.virtualDev = "pcieRootPort"
+2023-10-26T15:40:12.695Z In(05) vmx DICT      pciBridge5.functions = "8"
+2023-10-26T15:40:12.695Z In(05) vmx DICT        pciBridge6.present = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT     pciBridge6.virtualDev = "pcieRootPort"
+2023-10-26T15:40:12.695Z In(05) vmx DICT      pciBridge6.functions = "8"
+2023-10-26T15:40:12.695Z In(05) vmx DICT        pciBridge7.present = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT     pciBridge7.virtualDev = "pcieRootPort"
+2023-10-26T15:40:12.695Z In(05) vmx DICT      pciBridge7.functions = "8"
+2023-10-26T15:40:12.695Z In(05) vmx DICT             vmci0.present = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT             hpet0.present = "TRUE"
+2023-10-26T15:40:12.695Z In(05) vmx DICT                     nvram = "satya1.nvram"
+2023-10-26T15:40:12.695Z In(05) vmx DICT virtualHW.productCompatibility = "hosted"
+2023-10-26T15:40:12.696Z In(05) vmx DICT        powerType.powerOff = "soft"
+2023-10-26T15:40:12.696Z In(05) vmx DICT         powerType.powerOn = "soft"
+2023-10-26T15:40:12.696Z In(05) vmx DICT         powerType.suspend = "soft"
+2023-10-26T15:40:12.696Z In(05) vmx DICT           powerType.reset = "soft"
+2023-10-26T15:40:12.696Z In(05) vmx DICT usb.vbluetooth.startConnected = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT                   guestOS = "centos7-64"
+2023-10-26T15:40:12.696Z In(05) vmx DICT            tools.syncTime = "FALSE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT          sound.autoDetect = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT            sound.fileName = "-1"
+2023-10-26T15:40:12.696Z In(05) vmx DICT             sound.present = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT               vcpu.hotadd = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT                   memsize = "1912"
+2023-10-26T15:40:12.696Z In(05) vmx DICT                mem.hotadd = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT          scsi0.virtualDev = "lsilogic"
+2023-10-26T15:40:12.696Z In(05) vmx DICT             scsi0.present = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT          scsi0:0.fileName = "docker-cl2.vmdk"
+2023-10-26T15:40:12.696Z In(05) vmx DICT           scsi0:0.present = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT         ide0:0.deviceType = "cdrom-raw"
+2023-10-26T15:40:12.696Z In(05) vmx DICT           ide0:0.fileName = "auto detect"
+2023-10-26T15:40:12.696Z In(05) vmx DICT            ide0:0.present = "FALSE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT         ide1:0.deviceType = "cdrom-raw"
+2023-10-26T15:40:12.696Z In(05) vmx DICT           ide1:0.fileName = "auto detect"
+2023-10-26T15:40:12.696Z In(05) vmx DICT            ide1:0.present = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT               usb.present = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT              ehci.present = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT     ethernet0.addressType = "generated"
+2023-10-26T15:40:12.696Z In(05) vmx DICT      ethernet0.virtualDev = "e1000"
+2023-10-26T15:40:12.696Z In(05) vmx DICT          serial0.fileType = "thinprint"
+2023-10-26T15:40:12.696Z In(05) vmx DICT          serial0.fileName = "thinprint"
+2023-10-26T15:40:12.696Z In(05) vmx DICT         ethernet0.present = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT           serial0.present = "TRUE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT        extendedConfigFile = "satya1.vmxf"
+2023-10-26T15:40:12.696Z In(05) vmx DICT           floppy0.present = "FALSE"
+2023-10-26T15:40:12.696Z In(05) vmx DICT                 uuid.bios = "56 4d b9 9d ec b7 46 2e-d5 d5 5f 8f 72 4c 54 a1"
+2023-10-26T15:40:12.696Z In(05) vmx DICT             uuid.location = "56 4d b9 9d ec b7 46 2e-d5 d5 5f 8f 72 4c 54 a1"
+2023-10-26T15:40:12.696Z In(05) vmx DICT              scsi0:0.redo = ""
+2023-10-26T15:40:12.696Z In(05) vmx DICT  pciBridge0.pciSlotNumber = "17"
+2023-10-26T15:40:12.697Z In(05) vmx DICT  pciBridge4.pciSlotNumber = "21"
+2023-10-26T15:40:12.697Z In(05) vmx DICT  pciBridge5.pciSlotNumber = "22"
+2023-10-26T15:40:12.697Z In(05) vmx DICT  pciBridge6.pciSlotNumber = "23"
+2023-10-26T15:40:12.697Z In(05) vmx DICT  pciBridge7.pciSlotNumber = "24"
+2023-10-26T15:40:12.697Z In(05) vmx DICT       scsi0.pciSlotNumber = "16"
+2023-10-26T15:40:12.697Z In(05) vmx DICT         usb.pciSlotNumber = "32"
+2023-10-26T15:40:12.697Z In(05) vmx DICT   ethernet0.pciSlotNumber = "33"
+2023-10-26T15:40:12.697Z In(05) vmx DICT       sound.pciSlotNumber = "34"
+2023-10-26T15:40:12.697Z In(05) vmx DICT        ehci.pciSlotNumber = "35"
+2023-10-26T15:40:12.697Z In(05) vmx DICT             svga.vramSize = "268435456"
+2023-10-26T15:40:12.697Z In(05) vmx DICT  vmotion.checkpointFBSize = "4194304"
+2023-10-26T15:40:12.697Z In(05) vmx DICT vmotion.checkpointSVGAPrimarySize = "268435456"
+2023-10-26T15:40:12.697Z In(05) vmx DICT   vmotion.svga.mobMaxSize = "268435456"
+2023-10-26T15:40:12.697Z In(05) vmx DICT vmotion.svga.graphicsMemoryKB = "262144"
+2023-10-26T15:40:12.697Z In(05) vmx DICT ethernet0.generatedAddress = "00:0c:29:4c:54:a1"
+2023-10-26T15:40:12.697Z In(05) vmx DICT ethernet0.generatedAddressOffset = "0"
+2023-10-26T15:40:12.697Z In(05) vmx DICT                  vmci0.id = "-646174481"
+2023-10-26T15:40:12.697Z In(05) vmx DICT    monitor.phys_bits_used = "45"
+2023-10-26T15:40:12.697Z In(05) vmx DICT             cleanShutdown = "FALSE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT              softPowerOff = "FALSE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT               usb:1.speed = "2"
+2023-10-26T15:40:12.697Z In(05) vmx DICT             usb:1.present = "TRUE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT          usb:1.deviceType = "hub"
+2023-10-26T15:40:12.697Z In(05) vmx DICT                usb:1.port = "1"
+2023-10-26T15:40:12.697Z In(05) vmx DICT              usb:1.parent = "-1"
+2023-10-26T15:40:12.697Z In(05) vmx DICT svga.guestBackedPrimaryAware = "TRUE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT         ide0:0.autodetect = "TRUE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT       ide0:0.clientDevice = "FALSE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT         ide1:0.autodetect = "TRUE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT       ide1:0.clientDevice = "FALSE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT       tools.remindInstall = "FALSE"
+2023-10-26T15:40:12.697Z In(05) vmx DICT toolsInstallManager.updateCounter = "1"
+2023-10-26T15:40:12.697Z In(05) vmx DICT toolsInstallManager.lastInstallError = "0"
+2023-10-26T15:40:12.697Z In(05) vmx DICT   guestInfo.detailed.data = <not printed>
+2023-10-26T15:40:12.698Z In(05) vmx DICT        checkpoint.vmState = ""
+2023-10-26T15:40:12.698Z In(05) vmx DICT  ethernet0.connectionType = "nat"
+2023-10-26T15:40:12.698Z In(05) vmx DICT          scsi0:1.fileName = "docker-0-cl2.vmdk"
+2023-10-26T15:40:12.698Z In(05) vmx DICT           scsi0:1.present = "TRUE"
+2023-10-26T15:40:12.698Z In(05) vmx DICT              scsi0:1.redo = ""
+2023-10-26T15:40:12.698Z In(05) vmx DICT   gui.lastPoweredViewMode = "fullscreen"
+2023-10-26T15:40:12.698Z In(05) vmx DICT      tools.upgrade.policy = "useGlobal"
+2023-10-26T15:40:12.698Z In(05) vmx DICT          scsi0:2.fileName = "docker-1-cl2.vmdk"
+2023-10-26T15:40:12.698Z In(05) vmx DICT           scsi0:2.present = "TRUE"
+2023-10-26T15:40:12.698Z In(05) vmx DICT              scsi0:2.redo = ""
+2023-10-26T15:40:12.698Z In(05) vmx DICT          scsi0:3.fileName = "docker-2-cl2.vmdk"
+2023-10-26T15:40:12.698Z In(05) vmx DICT           scsi0:3.present = "TRUE"
+2023-10-26T15:40:12.698Z In(05) vmx DICT              scsi0:3.redo = ""
+2023-10-26T15:40:12.698Z In(05) vmx DICT          scsi0:4.fileName = "docker-3-cl2.vmdk"
+2023-10-26T15:40:12.698Z In(05) vmx DICT           scsi0:4.present = "TRUE"
+2023-10-26T15:40:12.698Z In(05) vmx DICT              scsi0:4.redo = ""
+2023-10-26T15:40:12.698Z In(05) vmx DICT            fileSearchPath = ".;C:\Users\ABCDE\Documents\Virtual Machines\Clone of satya;C:\Users\ABCDE\Documents\Virtual Machines\docker"
+2023-10-26T15:40:12.698Z In(05) vmx DICT                   vc.uuid = ""
+2023-10-26T15:40:12.698Z In(05) vmx DICT          policy.vm.mvmtid = ""
+2023-10-26T15:40:12.698Z In(05) vmx DICT             usb:0.present = "TRUE"
+2023-10-26T15:40:12.698Z In(05) vmx DICT          usb:0.deviceType = "hid"
+2023-10-26T15:40:12.698Z In(05) vmx DICT                usb:0.port = "0"
+2023-10-26T15:40:12.698Z In(05) vmx DICT              usb:0.parent = "-1"
+2023-10-26T15:40:12.698Z In(05) vmx DICT --- USER DEFAULTS C:\Users\ABCDE\AppData\Roaming\VMware\config.ini 
+2023-10-26T15:40:12.698Z In(05) vmx DICT --- HOST DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2023-10-26T15:40:12.698Z In(05) vmx DICT         authd.client.port = "902"
+2023-10-26T15:40:12.698Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-26T15:40:12.698Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2023-10-26T15:40:12.698Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "28546"
+2023-10-26T15:40:12.698Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-26T15:40:12.698Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2023-10-26T15:40:12.698Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "28546"
+2023-10-26T15:40:12.698Z In(05) vmx DICT --- SITE DEFAULTS C:\ProgramData\VMware\VMware Workstation\config.ini 
+2023-10-26T15:40:12.698Z In(05) vmx DICT         authd.client.port = "902"
+2023-10-26T15:40:12.699Z In(05) vmx DICT           authd.proxy.nfc = "vmware-hostd:ha-nfc"
+2023-10-26T15:40:12.699Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled = "yes"
+2023-10-26T15:40:12.699Z In(05) vmx DICT installerDefaults.autoSoftwareUpdateEnabled.epoch = "28546"
+2023-10-26T15:40:12.699Z In(05) vmx DICT installerDefaults.componentDownloadEnabled = "yes"
+2023-10-26T15:40:12.699Z In(05) vmx DICT installerDefaults.dataCollectionEnabled = "yes"
+2023-10-26T15:40:12.699Z In(05) vmx DICT installerDefaults.dataCollectionEnabled.epoch = "28546"
+2023-10-26T15:40:12.699Z In(05) vmx DICT --- GLOBAL SETTINGS C:\ProgramData\VMware\VMware Workstation\settings.ini 
+2023-10-26T15:40:12.699Z In(05) vmx DICT          printers.enabled = "FALSE"
+2023-10-26T15:40:12.700Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2023-10-26T15:40:12.700Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2023-10-26T15:40:12.702Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2023-10-26T15:40:12.702Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'centos7-64' guest.
+2023-10-26T15:40:12.704Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2023-10-26T15:40:12.715Z In(05) vmx Monitor Mode: CPL0
+2023-10-26T15:40:12.778Z In(05) vmx OvhdMem_PowerOn: initial admission: paged   523658 nonpaged     4118 anonymous     5157
+2023-10-26T15:40:12.779Z In(05) vmx VMMEM: Initial Reservation: 2081MB (MainMem=1912MB)
+2023-10-26T15:40:12.779Z In(05) vmx MemSched_PowerOn: balloon minGuestSize 104857 (80% of min required size 131072)
+2023-10-26T15:40:12.779Z In(05) vmx MemSched: reserved mem (in MB) min 128 max 6125 recommended 6125
+2023-10-26T15:40:12.779Z In(05) vmx MemSched: pg 523658 np 4118 anon 5157 mem 489472
+2023-10-26T15:40:12.925Z In(05) vmx MemSched: numvm 2 locked pages: num 6358 max 1551616
+2023-10-26T15:40:12.925Z In(05) vmx MemSched: locked Page Limit: host 1594601 config 1568000
+2023-10-26T15:40:12.925Z In(05) vmx MemSched: minmempct 50 minalloc 401769 admitted 1
+2023-10-26T15:40:12.925Z In(05) vmx numa: Hot add is enabled and vNUMA hot add is disabled, forcing UMA.
+2023-10-26T15:40:12.926Z In(05) vmx llc: maximum vcpus per LLC: 1
+2023-10-26T15:40:12.926Z In(05) vmx llc: vLLC size: 1
+2023-10-26T15:40:12.929Z In(05) PowerNotifyThread VTHREAD 15188 "PowerNotifyThread"
+2023-10-26T15:40:12.929Z In(05) vmx VMXSTATS: Registering 1 stats: vmx.logDropChars
+2023-10-26T15:40:12.929Z In(05) vmx VMXSTATS: Registering 2 stats: vmx.logBytesLogged
+2023-10-26T15:40:12.929Z In(05) vmx VMXSTATS: Registering 3 stats: vmx.numTimesLogDrop
+2023-10-26T15:40:12.929Z In(05) PowerNotifyThread PowerNotify thread is alive.
+2023-10-26T15:40:12.934Z In(05) vmx LICENSE using: 'HKEY_LOCAL_MACHINE\SOFTWARE\VMware, Inc.\VMware Workstation\Dormant\License.ws.16.0.e5.202001' 
+2023-10-26T15:40:12.937Z In(05) vthread-9068 VTHREAD 9068 "vthread-9068"
+2023-10-26T15:40:12.938Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\satya1.vmpl", ...) failed, error: 2
+2023-10-26T15:40:12.938Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2023-10-26T15:40:12.938Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\satya1.vmpl", ...) failed, error: 2
+2023-10-26T15:40:12.938Z In(05) vmx PolicyVMXFindPolicyKey: policy file does not exist.
+2023-10-26T15:40:12.939Z In(05) vmx Host PA size: 39 bits. Guest PA size: 45 bits.
+2023-10-26T15:40:12.941Z In(05) vmx ToolsISO: Refreshing imageName for 'centos7-64' (refreshCount=1, lastCount=1).
+2023-10-26T15:40:12.941Z In(05) vmx ToolsISO: open of C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig failed: Could not find the file
+2023-10-26T15:40:12.942Z In(05) vmx ToolsISO: Unable to read signature file 'C:\Program Files (x86)\VMware\VMware Workstation\isoimages_manifest.txt.sig', ignoring.
+2023-10-26T15:40:12.943Z In(05) vmx ToolsISO: Updated cached value for imageName to 'linux.iso'.
+2023-10-26T15:40:12.944Z In(05) vmx ToolsISO: Selected Tools ISO 'linux.iso' for 'centos7-64' guest.
+2023-10-26T15:40:12.946Z In(05) deviceThread VTHREAD 6196 "deviceThread"
+2023-10-26T15:40:12.946Z In(05) deviceThread Device thread is alive
+2023-10-26T15:40:12.947Z In(05) vmx Host VT-x Capabilities:
+2023-10-26T15:40:12.947Z In(05) vmx Basic VMX Information (0x00da040000000004)
+2023-10-26T15:40:12.947Z In(05) vmx   VMCS revision ID                   4
+2023-10-26T15:40:12.947Z In(05) vmx   VMCS region length              1024
+2023-10-26T15:40:12.947Z In(05) vmx   VMX physical-address width   natural
+2023-10-26T15:40:12.947Z In(05) vmx   SMM dual-monitor mode            yes
+2023-10-26T15:40:12.947Z In(05) vmx   VMCS memory type                  WB
+2023-10-26T15:40:12.947Z In(05) vmx   Advanced INS/OUTS info           yes
+2023-10-26T15:40:12.947Z In(05) vmx   True VMX MSRs                    yes
+2023-10-26T15:40:12.947Z In(05) vmx   Exception Injection without error code    no
+2023-10-26T15:40:12.947Z In(05) vmx True Pin-Based VM-Execution Controls (0x0000007f00000016)
+2023-10-26T15:40:12.947Z In(05) vmx   External-interrupt exiting               {0,1}
+2023-10-26T15:40:12.947Z In(05) vmx   NMI exiting                              {0,1}
+2023-10-26T15:40:12.947Z In(05) vmx   Virtual NMIs                             {0,1}
+2023-10-26T15:40:12.947Z In(05) vmx   Activate VMX-preemption timer            {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Process posted interrupts                { 0 }
+2023-10-26T15:40:12.948Z In(05) vmx True Primary Processor-Based VM-Execution Controls (0xfff9fffe04006172)
+2023-10-26T15:40:12.948Z In(05) vmx   Interrupt-window exiting                 {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Use TSC offsetting                       {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   HLT exiting                              {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   INVLPG exiting                           {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   MWAIT exiting                            {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   RDPMC exiting                            {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   RDTSC exiting                            {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   CR3-load exiting                         {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   CR3-store exiting                        {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Activate tertiary controls               { 0 }
+2023-10-26T15:40:12.948Z In(05) vmx   CR8-load exiting                         {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   CR8-store exiting                        {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Use TPR shadow                           {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   NMI-window exiting                       {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   MOV-DR exiting                           {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Unconditional I/O exiting                {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Use I/O bitmaps                          {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Monitor trap flag                        {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Use MSR bitmaps                          {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   MONITOR exiting                          {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   PAUSE exiting                            {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Activate secondary controls              {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx Secondary Processor-Based VM-Execution Controls (0x001ffcff00000000)
+2023-10-26T15:40:12.948Z In(05) vmx   Virtualize APIC accesses                 {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Enable EPT                               {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Descriptor-table exiting                 {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Enable RDTSCP                            {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Virtualize x2APIC mode                   {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Enable VPID                              {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   WBINVD exiting                           {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Unrestricted guest                       {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   APIC-register virtualization             { 0 }
+2023-10-26T15:40:12.948Z In(05) vmx   Virtual-interrupt delivery               { 0 }
+2023-10-26T15:40:12.948Z In(05) vmx   PAUSE-loop exiting                       {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   RDRAND exiting                           {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Enable INVPCID                           {0,1}
+2023-10-26T15:40:12.948Z In(05) vmx   Enable VM Functions                      {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Use VMCS shadowing                       {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   ENCLS exiting                            {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   RDSEED exiting                           {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Enable PML                               {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   EPT-violation #VE                        {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Conceal VMX from PT                      {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Enable XSAVES/XRSTORS                    {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   PASID translation                        { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Mode-based execute control for EPT       { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Sub-page write permissions for EPT       { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   PT uses guest physical addresses         { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Use TSC scaling                          { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Enable UMWAIT and TPAUSE                 { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Enable ENCLV in VMX non-root mode        { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Enable EPC Virtualization Extensions     { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Bus lock exiting                         { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Notification VM exits                    { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx Tertiary Processor-Based VM-Execution Controls (0x0000000000000000)
+2023-10-26T15:40:12.949Z In(05) vmx   LOADIWKEY exiting                          no
+2023-10-26T15:40:12.949Z In(05) vmx   Enable HLAT                                no
+2023-10-26T15:40:12.949Z In(05) vmx   Enable Paging-Write                        no
+2023-10-26T15:40:12.949Z In(05) vmx   Enable Guest Paging Verification           no
+2023-10-26T15:40:12.949Z In(05) vmx   Enable IPI Virtualization                  no
+2023-10-26T15:40:12.949Z In(05) vmx True VM-Exit Controls (0x01ffffff00036dfb)
+2023-10-26T15:40:12.949Z In(05) vmx   Save debug controls                      {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Host address-space size                  {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Load IA32_PERF_GLOBAL_CTRL               {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Acknowledge interrupt on exit            {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Save IA32_PAT                            {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Load IA32_PAT                            {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Save IA32_EFER                           {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Load IA32_EFER                           {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Save VMX-preemption timer                {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Clear IA32_BNDCFGS                       {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Conceal VMX from processor trace         {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   Clear IA32_RTIT MSR                      { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Clear IA32_LBR_CTL MSR                   { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Clear user-interrupt notification vector { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Load CET state                           { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx   Load PKRS                                { 0 }
+2023-10-26T15:40:12.949Z In(05) vmx True VM-Entry Controls (0x0003ffff000011fb)
+2023-10-26T15:40:12.949Z In(05) vmx   Load debug controls                      {0,1}
+2023-10-26T15:40:12.949Z In(05) vmx   IA-32e mode guest                        {0,1}
+2023-10-26T15:40:12.950Z In(05) vmx   Entry to SMM                             {0,1}
+2023-10-26T15:40:12.950Z In(05) vmx   Deactivate dual-monitor mode             {0,1}
+2023-10-26T15:40:12.950Z In(05) vmx   Load IA32_PERF_GLOBAL_CTRL               {0,1}
+2023-10-26T15:40:12.950Z In(05) vmx   Load IA32_PAT                            {0,1}
+2023-10-26T15:40:12.950Z In(05) vmx   Load IA32_EFER                           {0,1}
+2023-10-26T15:40:12.950Z In(05) vmx   Load IA32_BNDCFGS                        {0,1}
+2023-10-26T15:40:12.950Z In(05) vmx   Conceal VMX from processor trace         {0,1}
+2023-10-26T15:40:12.950Z In(05) vmx   Load IA32_RTIT MSR                       { 0 }
+2023-10-26T15:40:12.950Z In(05) vmx   Load user-interrupt notification vector  { 0 }
+2023-10-26T15:40:12.950Z In(05) vmx   Load CET state                           { 0 }
+2023-10-26T15:40:12.950Z In(05) vmx   Load IA32_LBR_CTL MSR                    { 0 }
+2023-10-26T15:40:12.950Z In(05) vmx   Load PKRS                                { 0 }
+2023-10-26T15:40:12.950Z In(05) vmx VPID and EPT Capabilities (0x00000f0106334141)
+2023-10-26T15:40:12.950Z In(05) vmx   R=0/W=0/X=1                               yes
+2023-10-26T15:40:12.950Z In(05) vmx   Page-walk length 3                        yes
+2023-10-26T15:40:12.950Z In(05) vmx   EPT memory type WB                        yes
+2023-10-26T15:40:12.950Z In(05) vmx   2MB super-page                            yes
+2023-10-26T15:40:12.950Z In(05) vmx   1GB super-page                            yes
+2023-10-26T15:40:12.950Z In(05) vmx   INVEPT support                            yes
+2023-10-26T15:40:12.950Z In(05) vmx   Access & Dirty Bits                       yes
+2023-10-26T15:40:12.950Z In(05) vmx   Advanced VM exit information for EPT violations    no
+2023-10-26T15:40:12.950Z In(05) vmx   Supervisor shadow-stack control            no
+2023-10-26T15:40:12.950Z In(05) vmx   Type 1 INVEPT                             yes
+2023-10-26T15:40:12.950Z In(05) vmx   Type 2 INVEPT                             yes
+2023-10-26T15:40:12.950Z In(05) vmx   INVVPID support                           yes
+2023-10-26T15:40:12.950Z In(05) vmx   Type 0 INVVPID                            yes
+2023-10-26T15:40:12.950Z In(05) vmx   Type 1 INVVPID                            yes
+2023-10-26T15:40:12.950Z In(05) vmx   Type 2 INVVPID                            yes
+2023-10-26T15:40:12.950Z In(05) vmx   Type 3 INVVPID                            yes
+2023-10-26T15:40:12.950Z In(05) vmx Miscellaneous VMX Data (0x000000007004c1e7)
+2023-10-26T15:40:12.950Z In(05) vmx   TSC to preemption timer ratio      7
+2023-10-26T15:40:12.950Z In(05) vmx   VM-Exit saves EFER.LMA           yes
+2023-10-26T15:40:12.950Z In(05) vmx   Activity State HLT               yes
+2023-10-26T15:40:12.950Z In(05) vmx   Activity State shutdown          yes
+2023-10-26T15:40:12.950Z In(05) vmx   Activity State wait-for-SIPI     yes
+2023-10-26T15:40:12.950Z In(05) vmx   Processor trace in VMX           yes
+2023-10-26T15:40:12.950Z In(05) vmx   RDMSR SMBASE MSR in SMM          yes
+2023-10-26T15:40:12.950Z In(05) vmx   CR3 targets supported              4
+2023-10-26T15:40:12.950Z In(05) vmx   Maximum MSR list size            512
+2023-10-26T15:40:12.950Z In(05) vmx   VMXOFF holdoff of SMIs           yes
+2023-10-26T15:40:12.950Z In(05) vmx   Allow all VMWRITEs               yes
+2023-10-26T15:40:12.951Z In(05) vmx   Allow zero instruction length    yes
+2023-10-26T15:40:12.951Z In(05) vmx   MSEG revision ID                   0
+2023-10-26T15:40:12.951Z In(05) vmx VMX-Fixed Bits in CR0 (0x0000000080000021/0x00000000ffffffff)
+2023-10-26T15:40:12.951Z In(05) vmx   Fixed to 0        0xffffffff00000000
+2023-10-26T15:40:12.951Z In(05) vmx   Fixed to 1        0x0000000080000021
+2023-10-26T15:40:12.951Z In(05) vmx   Variable          0x000000007fffffde
+2023-10-26T15:40:12.951Z In(05) vmx VMX-Fixed Bits in CR4 (0x0000000000002000/0x00000000003767ff)
+2023-10-26T15:40:12.951Z In(05) vmx   Fixed to 0        0xffffffffffc89800
+2023-10-26T15:40:12.951Z In(05) vmx   Fixed to 1        0x0000000000002000
+2023-10-26T15:40:12.951Z In(05) vmx   Variable          0x00000000003747ff
+2023-10-26T15:40:12.951Z In(05) vmx VMCS Enumeration (0x000000000000002e)
+2023-10-26T15:40:12.951Z In(05) vmx   Highest index                   0x17
+2023-10-26T15:40:12.951Z In(05) vmx VM Functions (0x0000000000000001)
+2023-10-26T15:40:12.951Z In(05) vmx   Function  0 (EPTP-switching) supported.
+2023-10-26T15:40:12.951Z In(05) vmx Monitor_PowerOn: HostedVSMP skew tracking is disabled
+2023-10-26T15:40:12.952Z In(05) vmx vmm-modules: [vmm.vmm, vmce-vmce.vmm, viommu-none.vmm, vprobe-none.vmm, hv-vt.vmm, gphys-ept.vmm, callstack-none.vmm, gi-none.vmm, gmm-none.vmm, !e1000Shared=0x0, !vmSamples=0x880, !theIOSpace=0x8c0, !ttGPPerVcpu=0x6d80, {UseUnwind}=0x0, numVCPUsAsAddr=0x1, {SharedAreaReservations}=0x6dc0, {rodataSize}=0x22520, {textAddr}=0xfffffffffc000000, {textSize}=0x94b33, <MonSrcFile>]
+2023-10-26T15:40:12.952Z In(05) vmx vmm-vcpus:   1
+2023-10-26T15:40:13.005Z In(05) vmx KHZEstimate 2496002
+2023-10-26T15:40:13.005Z In(05) vmx MHZEstimate 2496
+2023-10-26T15:40:13.005Z In(05) vmx NumVCPUs 1
+2023-10-26T15:40:13.009Z In(05) vmx AIOGNRC: numThreads=33 ide=0, scsi=5, passthru=1
+2023-10-26T15:40:13.009Z In(05) vmx WORKER: Creating new group with maxThreads=33 (33)
+2023-10-26T15:40:13.036Z In(05) vmx WORKER: Creating new group with maxThreads=1 (34)
+2023-10-26T15:40:13.036Z In(05) vmx MainMem: CPT Host WZ=0 PF=1912 D=0
+2023-10-26T15:40:13.036Z In(05) vmx MainMem: CPT PLS=1 PLR=1 BS=1 BlkP=32 Mult=4 W=50
+2023-10-26T15:40:16.650Z In(05) vmx FILE: FileLockWaitForPossession timeout on 'D:\564db99d-ecb7-462e-d5d5-5f8f724c54a1.vmem.lck\M64904.lck' due to a local process '1996-133402163304781946(vmware-vmx.exe)'
+2023-10-26T15:40:16.652Z In(05) vmx MainMem: Lock on page file 'D:\564db99d-ecb7-462e-d5d5-5f8f724c54a1.vmem' failed, 'Resource temporarily unavailable' (11).
+2023-10-26T15:40:16.652Z In(05) vmx MainMem: Opened paging file, 'UNNAMED'.
+2023-10-26T15:40:16.653Z In(05) vmx MStat: Creating Stat vm.uptime
+2023-10-26T15:40:16.653Z In(05) vmx MStat: Creating Stat vm.suspendTime
+2023-10-26T15:40:16.653Z In(05) vmx MStat: Creating Stat vm.powerOnTimeStamp
+2023-10-26T15:40:16.654Z In(05) aioCompletion VTHREAD 7828 "aioCompletion"
+2023-10-26T15:40:16.654Z In(05) vmx VMXAIOMGR: Using: simple=Compl
+2023-10-26T15:40:16.663Z In(05) vmx WORKER: Creating new group with maxThreads=1 (35)
+2023-10-26T15:40:16.688Z In(05) vmx WORKER: Creating new group with maxThreads=14 (49)
+2023-10-26T15:40:16.695Z In(05) vmx FeatureCompat: No VM masks.
+2023-10-26T15:40:16.696Z In(05) vmx TimeTracker host to guest rate conversion 30557286340 @ 2496002000Hz -> 0 @ 2496002000Hz
+2023-10-26T15:40:16.702Z In(05) vmx TimeTracker host to guest rate conversion ((x * 2147483648) >> 31) + -30557286340
+2023-10-26T15:40:16.702Z In(05) vmx Disabling TSC scaling since host does not support it.
+2023-10-26T15:40:16.702Z In(05) vmx TSC offsetting enabled.
+2023-10-26T15:40:16.702Z In(05) vmx timeTracker.globalProgressMaxAllowanceMS: 2000
+2023-10-26T15:40:16.702Z In(05) vmx timeTracker.globalProgressToAllowanceNS: 1000
+2023-10-26T15:40:16.702Z In(05) vmx MKS PowerOn
+2023-10-26T15:40:16.709Z In(05) mks VTHREAD 17984 "mks"
+2023-10-26T15:40:16.709Z In(05) mks MKS thread is alive
+2023-10-26T15:40:16.709Z In(05) svga VTHREAD 2292 "svga"
+2023-10-26T15:40:16.709Z In(05) svga SVGA thread is alive
+2023-10-26T15:40:16.710Z In(05) mks MKS: SSE2=1, SSSE3=1, SSE4_1=1
+2023-10-26T15:40:16.715Z In(05) mouse VTHREAD 15096 "mouse"
+2023-10-26T15:40:16.715Z In(05) mks MKS-HookKeyboard: RegQueryValueEx(LowLevelHooksTimeout) failed: The system cannot find the file specified (2)
+2023-10-26T15:40:16.717Z In(05) kbh VTHREAD 10656 "kbh"
+2023-10-26T15:40:16.724Z In(05) mks MKS Win32: Registering top level window (0x409a6) to receive session change notification.
+2023-10-26T15:40:16.727Z In(05) mks Current Display Settings:
+2023-10-26T15:40:16.727Z In(05) mks    Display: 0 size: 1920x1080  position: (0, 0) name: \\.\DISPLAY1  
+2023-10-26T15:40:16.729Z In(05) mks MKS Win32: MIL: 0x4000
+2023-10-26T15:40:16.729Z In(05) mks MKS-RenderMain: PowerOn allowed MKSBasicOps 
+2023-10-26T15:40:16.729Z In(05) mks MKS-RenderMain: ISB enabled by config
+2023-10-26T15:40:16.729Z In(05) mks MKS-RenderMain: Collecting RenderOps caps from MKSBasicOps
+2023-10-26T15:40:16.729Z In(05) mks MKS-RenderMain: Starting MKSBasicOps
+2023-10-26T15:40:16.729Z In(05) mks MKS-RenderMain: Started MKSBasicOps
+2023-10-26T15:40:16.730Z In(05) mks MKS-RenderMain: Found Full Renderer: MKSBasicOps
+2023-10-26T15:40:16.730Z In(05) mks MKS-RenderMain: maxTextureSize=32768
+2023-10-26T15:40:16.731Z In(05) mks KHBKL: Unable to parse keystring at: ''
+2023-10-26T15:40:16.731Z In(05) mks MKSRemoteMgr: Set default display name: satya1
+2023-10-26T15:40:16.731Z In(05) mks MKSRemoteMgr: Loading VNC Configuration from VM config file
+2023-10-26T15:40:16.731Z In(05) mks MKSRemoteMgr: Using default VNC keymap table "us"
+2023-10-26T15:40:16.732Z In(05) vmx VLANCE: send cluster threshold is 80, size = 2 recalcInterval is 20000 us
+2023-10-26T15:40:16.732Z In(05) vmx VMXNET: send cluster threshold is 80, size = 2 recalcInterval is 20000 ticks, dontClusterSize is 128
+2023-10-26T15:40:16.735Z In(05) vmx Chipset version: 0x17
+2023-10-26T15:40:16.740Z In(05) vmx SOUNDLIB: Creating the Wave sound backend.
+2023-10-26T15:40:16.876Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation begins.
+2023-10-26T15:40:16.876Z In(05) vmx MigrateBusMemPrealloc: BusMem preallocation completes.
+2023-10-26T15:40:16.877Z No(00) worker-9068 ConfigDB: Setting scsi0:4.redo = ""
+2023-10-26T15:40:16.877Z In(05) worker-9068 DISK: OPEN scsi0:4 'D:\docker-3-cl2.vmdk' persistent R[]
+2023-10-26T15:40:16.879Z In(05) vthread-7880 VTHREAD 7880 "vthread-7880"
+2023-10-26T15:40:16.881Z In(05) vthread-14404 VTHREAD 14404 "vthread-14404"
+2023-10-26T15:40:16.883Z In(05) vthread-16380 VTHREAD 16380 "vthread-16380"
+2023-10-26T15:40:16.884Z In(05) vthread-16004 VTHREAD 16004 "vthread-16004"
+2023-10-26T15:40:16.884Z No(00) worker-14404 ConfigDB: Setting scsi0:2.redo = ""
+2023-10-26T15:40:16.884Z In(05) worker-14404 DISK: OPEN scsi0:2 'D:\docker-1-cl2.vmdk' persistent R[]
+2023-10-26T15:40:16.884Z No(00) worker-16380 ConfigDB: Setting scsi0:0.redo = ""
+2023-10-26T15:40:16.884Z In(05) worker-16380 DISK: OPEN scsi0:0 'D:\docker-cl2.vmdk' persistent R[]
+2023-10-26T15:40:16.885Z No(00) vmx ConfigDB: Setting scsi0:3.redo = ""
+2023-10-26T15:40:16.885Z In(05) vmx DISK: OPEN scsi0:3 'D:\docker-2-cl2.vmdk' persistent R[]
+2023-10-26T15:40:16.885Z No(00) worker-7880 ConfigDB: Setting scsi0:1.redo = ""
+2023-10-26T15:40:16.885Z In(05) worker-7880 DISK: OPEN scsi0:1 'D:\docker-0-cl2.vmdk' persistent R[]
+2023-10-26T15:40:20.404Z In(05) worker-16380 FILE: FileLockWaitForPossession timeout on 'D:\docker-cl2.vmdk.lck\M63540.lck' due to a local process '1996-133402163304781946(vmware-vmx.exe)'
+2023-10-26T15:40:20.404Z Wa(03) worker-16380 FILE: FileIO_Lock on 'D:\docker-cl2.vmdk' failed: An attempt was made to load a program with an incorrect format
+2023-10-26T15:40:20.405Z In(05) worker-16380 OBJLIB-FILEBE : FileBEOpen: can't open 'D:\docker-cl2.vmdk' : The process cannot access the file because another process has locked a portion of the file (2162692).
+2023-10-26T15:40:20.405Z In(05) worker-16380 DISKLIB-DSCPTR: DescriptorOpenInt: failed to open 'D:\docker-cl2.vmdk' with flags 0x21: The process cannot access the file because another process has locked a portion of the file (210004)
+2023-10-26T15:40:20.405Z In(05) worker-16380 DISKLIB-LINK  : "D:\docker-cl2.vmdk" : failed to open (The process cannot access the file because another process has locked a portion of the file).  
+2023-10-26T15:40:20.405Z Er(02) worker-16380 DISKLIB-CHAIN : DiskChainOpen: "D:\docker-cl2.vmdk": failed to open: The process cannot access the file because another process has locked a portion of the file.
+2023-10-26T15:40:20.406Z In(05) worker-16380 DISKLIB-LIB   : Failed to open 'D:\docker-cl2.vmdk' with flags 0xa The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.406Z Er(02) worker-16380 DISK: Cannot open disk 'D:\docker-cl2.vmdk': The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.440Z In(05) vmx FILE: FileLockWaitForPossession timeout on 'D:\docker-2-cl2.vmdk.lck\M03457.lck' due to a local process '1996-133402163304781946(vmware-vmx.exe)'
+2023-10-26T15:40:20.440Z Wa(03) vmx FILE: FileIO_Lock on 'D:\docker-2-cl2.vmdk' failed: An attempt was made to load a program with an incorrect format
+2023-10-26T15:40:20.440Z In(05) vmx OBJLIB-FILEBE : FileBEOpen: can't open 'D:\docker-2-cl2.vmdk' : The process cannot access the file because another process has locked a portion of the file (2162692).
+2023-10-26T15:40:20.440Z In(05) vmx DISKLIB-DSCPTR: DescriptorOpenInt: failed to open 'D:\docker-2-cl2.vmdk' with flags 0x21: The process cannot access the file because another process has locked a portion of the file (210004)
+2023-10-26T15:40:20.440Z In(05) vmx DISKLIB-LINK  : "D:\docker-2-cl2.vmdk" : failed to open (The process cannot access the file because another process has locked a portion of the file).  
+2023-10-26T15:40:20.440Z Er(02) vmx DISKLIB-CHAIN : DiskChainOpen: "D:\docker-2-cl2.vmdk": failed to open: The process cannot access the file because another process has locked a portion of the file.
+2023-10-26T15:40:20.440Z In(05) vmx DISKLIB-LIB   : Failed to open 'D:\docker-2-cl2.vmdk' with flags 0xa The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.440Z Er(02) vmx DISK: Cannot open disk 'D:\docker-2-cl2.vmdk': The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.440Z In(05) vmx Msg_Post: Error
+2023-10-26T15:40:20.440Z In(05) vmx [msg.literal] The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:20.440Z In(05) vmx [msg.disk.noBackEnd] Cannot open the disk 'D:\docker-2-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:20.440Z In(05) vmx ----------------------------------------
+2023-10-26T15:40:20.453Z In(05) worker-9068 FILE: FileLockWaitForPossession timeout on 'D:\docker-3-cl2.vmdk.lck\M31992.lck' due to a local process '1996-133402163304781946(vmware-vmx.exe)'
+2023-10-26T15:40:20.455Z Wa(03) worker-9068 FILE: FileIO_Lock on 'D:\docker-3-cl2.vmdk' failed: An attempt was made to load a program with an incorrect format
+2023-10-26T15:40:20.455Z In(05) worker-9068 OBJLIB-FILEBE : FileBEOpen: can't open 'D:\docker-3-cl2.vmdk' : The process cannot access the file because another process has locked a portion of the file (2162692).
+2023-10-26T15:40:20.455Z In(05) worker-9068 DISKLIB-DSCPTR: DescriptorOpenInt: failed to open 'D:\docker-3-cl2.vmdk' with flags 0x21: The process cannot access the file because another process has locked a portion of the file (210004)
+2023-10-26T15:40:20.455Z In(05) worker-9068 DISKLIB-LINK  : "D:\docker-3-cl2.vmdk" : failed to open (The process cannot access the file because another process has locked a portion of the file).  
+2023-10-26T15:40:20.455Z Er(02) worker-9068 DISKLIB-CHAIN : DiskChainOpen: "D:\docker-3-cl2.vmdk": failed to open: The process cannot access the file because another process has locked a portion of the file.
+2023-10-26T15:40:20.455Z In(05) worker-9068 DISKLIB-LIB   : Failed to open 'D:\docker-3-cl2.vmdk' with flags 0xa The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.455Z Er(02) worker-9068 DISK: Cannot open disk 'D:\docker-3-cl2.vmdk': The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.534Z In(05) worker-7880 FILE: FileLockWaitForPossession timeout on 'D:\docker-0-cl2.vmdk.lck\M58508.lck' due to a local process '1996-133402163304781946(vmware-vmx.exe)'
+2023-10-26T15:40:20.534Z Wa(03) worker-7880 FILE: FileIO_Lock on 'D:\docker-0-cl2.vmdk' failed: An attempt was made to load a program with an incorrect format
+2023-10-26T15:40:20.534Z In(05) worker-7880 OBJLIB-FILEBE : FileBEOpen: can't open 'D:\docker-0-cl2.vmdk' : The process cannot access the file because another process has locked a portion of the file (2162692).
+2023-10-26T15:40:20.534Z In(05) worker-7880 DISKLIB-DSCPTR: DescriptorOpenInt: failed to open 'D:\docker-0-cl2.vmdk' with flags 0x21: The process cannot access the file because another process has locked a portion of the file (210004)
+2023-10-26T15:40:20.534Z In(05) worker-7880 DISKLIB-LINK  : "D:\docker-0-cl2.vmdk" : failed to open (The process cannot access the file because another process has locked a portion of the file).  
+2023-10-26T15:40:20.534Z Er(02) worker-7880 DISKLIB-CHAIN : DiskChainOpen: "D:\docker-0-cl2.vmdk": failed to open: The process cannot access the file because another process has locked a portion of the file.
+2023-10-26T15:40:20.534Z In(05) worker-7880 DISKLIB-LIB   : Failed to open 'D:\docker-0-cl2.vmdk' with flags 0xa The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.534Z Er(02) worker-7880 DISK: Cannot open disk 'D:\docker-0-cl2.vmdk': The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.731Z In(05) worker-14404 FILE: FileLockWaitForPossession timeout on 'D:\docker-1-cl2.vmdk.lck\M11444.lck' due to a local process '1996-133402163304781946(vmware-vmx.exe)'
+2023-10-26T15:40:20.732Z Wa(03) worker-14404 FILE: FileIO_Lock on 'D:\docker-1-cl2.vmdk' failed: An attempt was made to load a program with an incorrect format
+2023-10-26T15:40:20.732Z In(05) worker-14404 OBJLIB-FILEBE : FileBEOpen: can't open 'D:\docker-1-cl2.vmdk' : The process cannot access the file because another process has locked a portion of the file (2162692).
+2023-10-26T15:40:20.732Z In(05) worker-14404 DISKLIB-DSCPTR: DescriptorOpenInt: failed to open 'D:\docker-1-cl2.vmdk' with flags 0x21: The process cannot access the file because another process has locked a portion of the file (210004)
+2023-10-26T15:40:20.732Z In(05) worker-14404 DISKLIB-LINK  : "D:\docker-1-cl2.vmdk" : failed to open (The process cannot access the file because another process has locked a portion of the file).  
+2023-10-26T15:40:20.732Z Er(02) worker-14404 DISKLIB-CHAIN : DiskChainOpen: "D:\docker-1-cl2.vmdk": failed to open: The process cannot access the file because another process has locked a portion of the file.
+2023-10-26T15:40:20.732Z In(05) worker-14404 DISKLIB-LIB   : Failed to open 'D:\docker-1-cl2.vmdk' with flags 0xa The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:20.732Z Er(02) worker-14404 DISK: Cannot open disk 'D:\docker-1-cl2.vmdk': The process cannot access the file because another process has locked a portion of the file (2162697).
+2023-10-26T15:40:22.460Z In(05) worker-9068 Msg_Post: Error
+2023-10-26T15:40:22.460Z In(05) worker-9068 [msg.literal] The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:22.460Z In(05) worker-9068 [msg.disk.noBackEnd] Cannot open the disk 'D:\docker-3-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:22.460Z In(05) worker-9068 ----------------------------------------
+2023-10-26T15:40:24.238Z In(05) worker-14404 Msg_Post: Error
+2023-10-26T15:40:24.238Z In(05) worker-14404 [msg.literal] The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:24.238Z In(05) worker-14404 [msg.disk.noBackEnd] Cannot open the disk 'D:\docker-1-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:24.238Z In(05) worker-14404 ----------------------------------------
+2023-10-26T15:40:28.222Z In(05) worker-7880 Msg_Post: Error
+2023-10-26T15:40:28.222Z In(05) worker-7880 [msg.literal] The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:28.222Z In(05) worker-7880 [msg.disk.noBackEnd] Cannot open the disk 'D:\docker-0-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:28.222Z In(05) worker-7880 ----------------------------------------
+2023-10-26T15:40:29.250Z In(05) vmx DISK: Opening disks took 12373 ms.
+2023-10-26T15:40:29.251Z In(05) vmx Module 'Disk' power on failed.
+2023-10-26T15:40:29.251Z In(05) vmx VMX_PowerOn: ModuleTable_PowerOn = 0
+2023-10-26T15:40:29.268Z In(05) vmx SOUNDLIB: Closing Wave sound backend.
+2023-10-26T15:40:29.268Z In(05) vmx MKSThread: Requesting MKS exit
+2023-10-26T15:40:29.268Z In(05) vmx Stopping MKS/SVGA threads
+2023-10-26T15:40:29.268Z In(05) svga MKSThread: SVGA thread is skipping PowerOn
+2023-10-26T15:40:29.268Z In(05) svga MKSThread: SVGA thread is skipping the main loop
+2023-10-26T15:40:29.268Z In(05) vmx MKS/SVGA threads are stopped
+2023-10-26T15:40:29.270Z In(05) mks MKS-RenderMain: Stopped MKSBasicOps
+2023-10-26T15:40:29.273Z In(05) mks MKS PowerOff
+2023-10-26T15:40:29.273Z In(05) svga MKSThread: SVGA thread is skipping PowerOff
+2023-10-26T15:40:29.273Z In(05) svga SVGA thread is exiting
+2023-10-26T15:40:29.280Z In(05) mks MKS thread is exiting
+2023-10-26T15:40:29.281Z Wa(03) vmx 
+2023-10-26T15:40:29.290Z In(05) vmx AIOWIN32C: asyncOps=0 syncOps=0 bufSize=0Kb fixedOps=0
+2023-10-26T15:40:29.300Z In(05) aioCompletion AIO thread processed 0 completions
+2023-10-26T15:40:29.301Z In(05) deviceThread Device thread is exiting
+2023-10-26T15:40:29.302Z In(05) vmx Vix: [mainDispatch.c:1164]: VMAutomationPowerOff: Powering off.
+2023-10-26T15:40:29.303Z In(05) vmx Win32U_GetFileAttributes: GetFileAttributesExW("D:\satya1.vmpl", ...) failed, error: 2
+2023-10-26T15:40:29.304Z In(05) vmx Policy_SavePolicyFile: invalid arguments to function.
+2023-10-26T15:40:29.304Z In(05) vmx PolicyVMX_Exit: Could not write out policies: 15.
+2023-10-26T15:40:29.305Z In(05) vmx WORKER: asyncOps=5 maxActiveOps=5 maxPending=4 maxCompleted=0
+2023-10-26T15:40:29.306Z In(05) PowerNotifyThread PowerNotify thread exiting.
+2023-10-26T15:40:29.332Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=1, newAppState=1873, success=1 additionalError=0
+2023-10-26T15:40:29.339Z In(05) vmx VMXSTATS: Ready to cleanup and munmap 16D839D0000.
+2023-10-26T15:40:29.345Z In(05) vmx 
+2023-10-26T15:40:29.345Z In(05)+ vmx Power on failure messages: The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:29.345Z In(05)+ vmx Cannot open the disk 'D:\docker-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:29.345Z In(05)+ vmx Module 'Disk' power on failed.
+2023-10-26T15:40:29.345Z In(05)+ vmx The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:29.345Z In(05)+ vmx Cannot open the disk 'D:\docker-2-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:29.345Z In(05)+ vmx The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:29.345Z In(05)+ vmx Cannot open the disk 'D:\docker-3-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:29.345Z In(05)+ vmx The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:29.345Z In(05)+ vmx Cannot open the disk 'D:\docker-1-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:29.345Z In(05)+ vmx The process cannot access the file because another process has locked a portion of the file
+2023-10-26T15:40:29.345Z In(05)+ vmx Cannot open the disk 'D:\docker-0-cl2.vmdk' or one of the snapshot disks it depends on.
+2023-10-26T15:40:29.345Z In(05)+ vmx Failed to start the virtual machine.
+2023-10-26T15:40:29.345Z In(05)+ vmx 
+2023-10-26T15:40:29.350Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2023-10-26T15:40:29.350Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2023-10-26T15:40:29.350Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=0 additionalError=0
+2023-10-26T15:40:29.350Z In(05) vmx Vix: [mainDispatch.c:4244]: Error VIX_E_FAIL in VMAutomation_ReportPowerOpFinished(): Unknown error
+2023-10-26T15:40:29.356Z In(05) vmx Vix: [mainDispatch.c:4206]: VMAutomation_ReportPowerOpFinished: statevar=0, newAppState=1870, success=1 additionalError=0
+2023-10-26T15:40:29.357Z In(05) vmx Transitioned vmx/execState/val to poweredOff
+2023-10-26T15:40:29.359Z In(05) vmx WQPoolFreePoll : pollIx = 3, signalHandle = 1016
+2023-10-26T15:40:29.361Z In(05) vmx Vix: [mainDispatch.c:815]: VMAutomation_LateShutdown()
+2023-10-26T15:40:29.361Z In(05) vmx Vix: [mainDispatch.c:770]: VMAutomationCloseListenerSocket. Closing listener socket.
+2023-10-26T15:40:29.361Z In(05) vmx Flushing VMX VMDB connections
+2023-10-26T15:40:29.405Z In(05) vmx VmdbDbRemoveCnx: Removing Cnx from Db for '/db/connection/#1/'
+2023-10-26T15:40:29.405Z In(05) vmx VmdbCnxDisconnect: Disconnect: closed pipe for pub cnx '/db/connection/#1/' (0)
+2023-10-26T15:40:29.406Z In(05) vmx VigorTransport_ServerDestroy: server destroyed.
+2023-10-26T15:40:29.406Z In(05) vmx WQPoolFreePoll : pollIx = 2, signalHandle = 1188
+2023-10-26T15:40:29.406Z In(05) vmx WQPoolFreePoll : pollIx = 1, signalHandle = 844
+2023-10-26T15:40:29.421Z In(05) vmx VMX exit (0).
+2023-10-26T15:40:29.421Z In(05) vmx OBJLIB-LIB: ObjLib cleanup done.
+2023-10-26T15:40:29.422Z In(05) vmx AIOMGR-S : stat o=5 r=0 w=0 i=0 br=0 bw=0
